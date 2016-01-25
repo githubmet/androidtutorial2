@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView style="@style/styleOzel"/>
+    <TextView style="@style/styleOzel"/>
+
+    <TextView style="@style/styleOzel"
+        android:textColor="@color/colorBucky"/>
+    <TextView style="@style/styleOzel"
+        android:textColor="@android:color/holo_green_light"/>
+    <TextView style="@style/styleOzel"
+        android:textColor="#009900"/>
+    <TextView style="@style/styleOzel"
+        android:id="@+id/textViewP000"/>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerP000"></Spinner>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner2P000"></Spinner>
+
+
+
+</LinearLayout>

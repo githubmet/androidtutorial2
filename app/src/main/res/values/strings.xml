@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">My Application2</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="hello_world">Hello World</string>
+    <string name="new_activity">New Activity</string>
+    <string name="Name">Name</string>
+    <string name="Surname">Surname</string>
+    <string name="save">Save</string>
+    <string name="bosluk3" />
+    <string name="cancel">Cancel</string>
+    <string name="failed">Failed</string>
+    <string name="successful">Successful</string>
+    <string name="open">Open</string>
+
+
+</resources>

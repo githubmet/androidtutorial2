@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.suki.myapplication2" >
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="youtubemet"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.suki.myapplication2.P000Menu"
+            android:label="First Activity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".P000StyleColorsXml"></activity>
+
+        <activity android:name=".P001LinearLayout"></activity>
+
+        <activity android:name=".P002OptionsMenu"></activity>
+
+        <activity android:name=".P003ContextMenu"></activity>
+
+        <activity android:name=".P004NotifyDataSetChanged"></activity>
+
+        <activity android:name=".P005AlertDialogProf"></activity>
+
+        <activity android:name=".P008OpenWebPage"></activity>
+
+        <activity android:name=".P009BroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.example.suki.myapplication2.Deprem"></action>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".P010ActionBar"></activity>
+
+    </application>
+
+</manifest>

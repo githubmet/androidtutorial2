@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="activity_names">
+
+        <item>P000StyleColorsXml</item>
+        <item>P001LinearLayout</item>
+        <item>P002OptionsMenu</item>
+        <item>P003ContextMenu</item>
+        <item>P004NotifyDataSetChanged</item>
+        <item>P005AlertDialogProf</item>
+        <item>P008OpenWebPage</item>
+        <item>P010ActionBar</item>
+
+    </string-array>
+
+    <string-array name="colorsp000">
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Pink</item>
+        <item>Black</item>
+        <item>Yellow</item>
+    </string-array>
+
+    <string-array name="p007names">
+
+        <item>Can Polat</item>
+        <item>Cigdem Uzun</item>
+        <item>Lale Kinali</item>
+        <item>Bugra Mert</item>
+        <item>Asli Kalkan</item>
+        <item>Burhan Nemi</item>
+
+    </string-array>
+
+    <string-array name="paraAraclariP010">
+        <item>Hepsi</item>
+        <item>Altın</item>
+        <item>Euro</item>
+        <item>Dolar</item>
+    </string-array>
+
+</resources>
