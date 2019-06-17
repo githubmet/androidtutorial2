@@ -19,7 +19,7 @@ public class P001LinearLayout extends Activity {
         linearLayoutAna.setOrientation(LinearLayout.VERTICAL);
 
         LinearLayout.LayoutParams layoutParamsAna=new LinearLayout.LayoutParams(
-                LinearLayout.LayoutParams.WRAP_CONTENT,
+                LinearLayout.LayoutParams.MATCH_PARENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT
         );
         linearLayoutAna.setLayoutParams(layoutParamsAna);
@@ -29,7 +29,7 @@ public class P001LinearLayout extends Activity {
         linearLayoutName.setOrientation(LinearLayout.HORIZONTAL);
 
         LinearLayout.LayoutParams layoutParamsName=new LinearLayout.LayoutParams(
-                LinearLayout.LayoutParams.WRAP_CONTENT,
+                LinearLayout.LayoutParams.MATCH_PARENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT
         );
         linearLayoutName.setLayoutParams(layoutParamsName);
@@ -37,6 +37,12 @@ public class P001LinearLayout extends Activity {
         TextView textViewName=new TextView(this);
         textViewName.setText(getResources().getString(R.string.Name));
         EditText editText=new EditText(this);
+
+        LinearLayout.LayoutParams layoutParamsNameTiny=new LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.MATCH_PARENT,
+                LinearLayout.LayoutParams.WRAP_CONTENT,1
+        );
+        editText.setLayoutParams(layoutParamsNameTiny);
 
         linearLayoutName.addView(textViewName);
         linearLayoutName.addView(editText);
@@ -46,7 +52,7 @@ public class P001LinearLayout extends Activity {
         linearLayoutSurname.setOrientation(LinearLayout.HORIZONTAL);
 
         LinearLayout.LayoutParams layoutParamsSurname=new LinearLayout.LayoutParams(
-                LinearLayout.LayoutParams.WRAP_CONTENT,
+                LinearLayout.LayoutParams.MATCH_PARENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT
         );
         linearLayoutSurname.setLayoutParams(layoutParamsSurname);
@@ -55,6 +61,11 @@ public class P001LinearLayout extends Activity {
         textViewSurname.setText(getResources().getString(R.string.Surname));
         EditText editTextSurname=new EditText(this);
 
+        LinearLayout.LayoutParams layoutParamsSurnameTiny=new LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.MATCH_PARENT,
+                LinearLayout.LayoutParams.WRAP_CONTENT,1
+        );
+        editTextSurname.setLayoutParams(layoutParamsSurnameTiny);
         linearLayoutSurname.addView(textViewSurname);
         linearLayoutSurname.addView(editTextSurname);
 
