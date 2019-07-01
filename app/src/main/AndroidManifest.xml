@@ -11,7 +11,6 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.example.suki.myapplication2.P000Menu"
-            android:label="First Activity"
             android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

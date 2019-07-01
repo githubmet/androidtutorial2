@@ -98,6 +98,7 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental-runtime-classes" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental-verifier" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/instant-run-apk" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/instant-run-resources" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/javac" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/lınt_jar" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/manifest-checker" />
@@ -120,7 +121,6 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/valıdate_sıgnıng_confıg" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/ınstant_app_manıfest" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/ınstant_run_app_ınfo_output_fıle" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/ınstant_run_maın_apk_resources" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/ınstant_run_merged_manıfests" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/ınstant_run_splıt_apk_resources" />
       <excludeFolder url="file://$MODULE_DIR$/build/outputs" />
